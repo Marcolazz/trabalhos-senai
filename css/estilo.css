@@ -24,7 +24,7 @@ img{
 }
 
 .fundo{
-	width: auto;
+	width: 100%;
       height: 490px;
       position: absolute;
       top:0px; left:0px;
