@@ -138,14 +138,14 @@ function pontos(){
   if(xBolinha + raio > (larguraTela - 1)){
     pontosI += 1;
     somPonto.play();
-    velocidadeX += 2;
-    velocidadeY += 2;
+    velocidadeX -= 2;
+    velocidadeY -= 2;
   }
     if(xBolinha - raio < 1){
     pontosM += 1;
       somPonto.play();
-      velocidadeX -= 2;
-     velocidadeY -= 2;
+      velocidadeX += 2;
+     velocidadeY += 2;
   }
 }
 
