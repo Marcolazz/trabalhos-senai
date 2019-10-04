@@ -104,10 +104,10 @@ function jogar(){
 };
 
 function setasVenceu(){
-  fill("white")
+  fill("gray")
   rect(metadeTela, 0, larguraTela, alturaTela)
   textSize(40);
-  fill("red");
+  fill("White");
   textAlign(CENTER);
   text("Setas venceu", metadeTela + metadeTela/2, alturaTela/2);
 
@@ -115,17 +115,17 @@ function setasVenceu(){
 
 function teclasVenceu(){
 
-  fill("grey")
+  fill("gray")
   rect(0, 0, metadeTela, alturaTela)
   textSize(40);
-  fill("red");
+  fill("white");
   textAlign(CENTER);
   text("Letras venceu", metadeTela/2, alturaTela/2);
 }
 
 function mostraPlacar(){
-  fill("red")
-  stroke("white")
+  fill("white")
+  stroke("White")
   textSize(30);
   text(meuPlacar, 3/4 * larguraTela, 30);
   text(placarOponente, larguraTela/4, 30);
@@ -227,7 +227,7 @@ rect(xRaqueteOponente, yRaqueteOponente, larguraRaquete, alturaRaquete);
 
 
 function mostraBolinha(){
-  fill("red");
+  fill("white");
   noStroke();
   circle(xBolinha, yBolinha, diametro);
   
