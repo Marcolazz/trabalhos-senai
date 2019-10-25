@@ -13,7 +13,6 @@ function vacaVencedora(){
   textSize(48);
   text("Vaca Da Esquerda Venceu", meioLargura, meioAltura);
   image(imgVaca, meioLargura - 25, meioAltura + 40, 100, 100);
-  vitoria.play();
 }
 
 function vaca2Vencedora(){
@@ -24,5 +23,4 @@ function vaca2Vencedora(){
   textSize(48);
   text("Vaca Da Direita Venceu", meioLargura, meioAltura);
   image(imgVaca, meioLargura - 25, meioAltura + 40, 100, 100);
-  vitoria.play();
 }
